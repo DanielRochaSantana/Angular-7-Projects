@@ -5,11 +5,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-import { NgbdAlertCloseable } from './alert-closeable';
+import { AlertSucess01 } from './alertsucess.componet';
+import { AlertWarning02 } from './alertwarning.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, ReactiveFormsModule, HttpClientModule, NgbModule],
-  declarations: [AppComponent, NgbdAlertCloseable],
+  declarations: [AppComponent, AlertSucess01, AlertWarning02],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

@@ -15,10 +15,10 @@ const ALERTS: Alert[] = [{
 ];
 
 @Component({
-  selector: 'ngbd-alert-closeable',
-  templateUrl: './alert-closeable.html'
+  selector: 'Componente02_Sucesso',
+  templateUrl: './alertwarning.component.html'
 })
-export class NgbdAlertCloseable {
+export class AlertWarning02 {
 
   alerts: Alert[];
 
