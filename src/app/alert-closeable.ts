@@ -1,0 +1,1 @@
+import { Input, Component } from '@angular/core';
