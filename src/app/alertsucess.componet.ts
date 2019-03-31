@@ -8,9 +8,6 @@ interface Alert {
 const ALERTS: Alert[] = [{
     type: 'success',
     message: 'Sucesso!',
-  }, {
-    type: 'warning',
-    message: 'Atenção!',
   }
 ];
 

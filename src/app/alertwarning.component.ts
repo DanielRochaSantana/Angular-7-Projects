@@ -6,16 +6,13 @@ interface Alert {
 }
 
 const ALERTS: Alert[] = [{
-    type: 'success',
-    message: 'Sucesso!',
-  }, {
     type: 'warning',
     message: 'Atenção!',
   }
 ];
 
 @Component({
-  selector: 'Componente02_Sucesso',
+  selector: 'Componente02_Atencao',
   templateUrl: './alertwarning.component.html'
 })
 export class AlertWarning02 {
