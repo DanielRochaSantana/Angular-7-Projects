@@ -7,8 +7,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AlertSucess01 } from './alertsucess.componet';
 import { AlertWarning02 } from './alertwarning.component';
-import { ServersComponent } from './servers/servers.component';
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, ReactiveFormsModule, HttpClientModule, NgbModule],
