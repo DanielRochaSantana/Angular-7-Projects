@@ -7,10 +7,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { AlertSucess01 } from './alertsucess.componet';
 import { AlertWarning02 } from './alertwarning.component';
+import {ServerComponent} from './server/server.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, ReactiveFormsModule, HttpClientModule, NgbModule],
-  declarations: [AppComponent, AlertSucess01, AlertWarning02],
+  declarations: [AppComponent,ServerComponent, AlertSucess01, AlertWarning02],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
