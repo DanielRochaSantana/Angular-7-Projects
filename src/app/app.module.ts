@@ -1,13 +1,18 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { AlertSucess01 } from './alertsucess.componet';
+import { AlertWarning02 } from './alertwarning.component';
+import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, FormsModule, ReactiveFormsModule, HttpClientModule, NgbModule],
+  declarations: [AppComponent,ServersComponent,ServerComponent, AlertSucess01, AlertWarning02],
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
